@@ -1,0 +1,102 @@
+@import 'animate.css';
+body {
+    font-family: 'Catamaran', sans-serif;
+    color: #303633;
+    font-weight: 400;
+    background-image: url("https://images.unsplash.com/photo-1545229765-7ff613f80127?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+    /* background-size: cover; */
+    background-position: bottom;
+}
+
+.container {
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #303633;
+    font-size: 54px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: #303633;
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+a {
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6B72E1;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a:hover {
+    color: black;
+}
+
+.card-bio {
+    background-color: rgba(253, 253, 253, 0.88);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 140px;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-social {
+    background-color: rgba(253, 253, 253, 0.88);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 140px;
+    margin: 10px auto;
+    padding: top 35px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 80px;
+    display: inline;
+    padding: 30px;
+}
+
+.img-circle {
+    border: black solid;
+    box-shadow: red;
+    border-radius: 50%;
+    position: relative;
+    width: 50%;
+}
+
+@media (max-width: 1800px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
